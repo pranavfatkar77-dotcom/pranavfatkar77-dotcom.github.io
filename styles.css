@@ -594,11 +594,29 @@ footer span { color: var(--accent1); }
 
 /* ── RESPONSIVE ─────────────────────────────── */
 @media (max-width: 900px) {
-  .hero-layout   { flex-direction: column;
-                 align-items:center;
-                 text-align:center;}
-  .hero-visual   { display: block; } 
+
+  /* DO NOT hide hero visual */
+  .hero-visual {
+    display: block;
+  }
+
+  /* Make grids single column */
   .about-grid,
-  .contact-grid  { grid-template-columns: 1fr; }
-  .nav-links     { display: none; }
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Hide nav links (optional) */
+  .nav-links {
+    display: none;
+  }
+
+  /* Stack hero section */
+  .hero-layout {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
 }
+
