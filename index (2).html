@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranav Fatkar | AI ML Engineer & Data Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- BACKGROUND -->
+  <div class="bg-canvas">
+    <div class="bg-orb orb1"></div>
+    <div class="bg-orb orb2"></div>
+    <div class="bg-orb orb3"></div>
+  </div>
+  <div class="grid-overlay"></div>
+
+  <!-- ═══════════════════════════════
+       NAV
+  ═══════════════════════════════ -->
+  <nav>
+    <div class="nav-logo">PF<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn-primary" style="padding:10px 20px;font-size:0.8rem;">Hire Me</a>
+  </nav>
+
+  <!-- ═══════════════════════════════
+       HERO
+  ═══════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-layout">
+
+      <!-- LEFT: text content -->
+      <div class="hero-content">
+        <div class="hero-tag">Open to Opportunities — Let's Build Something Great</div>
+
+        <h1 class="hero-name">
+          <span class="first">Pranav</span>
+          <span class="last">Fatkar.</span>
+        </h1>
+
+        <p class="hero-role">
+          AI ML ENGINEER<span class="pipe">|</span>DATA ANALYST<span class="pipe">|</span>PYTHON DEVELOPER
+        </p>
+
+        <div class="hero-btns">
+          <a href="#contact" class="btn-primary">Get In Touch</a>
+          <a href="#projects" class="btn-outline">View My Work</a>
+        </div>
+
+        <div class="badges-row">
+          <div class="badge">🤖 AI/ML Engineer</div>
+          <div class="badge">📊 Data Analyst</div>
+          <div class="badge">🐍 Python Dev</div>
+        </div>
+      </div>
+
+      <!-- RIGHT: profile picture circle -->
+      <div class="hero-visual">
+        <div class="hero-ring"></div>
+        <div class="hero-ring2"></div>
+
+        <div class="hero-avatar">
+          <img src="imagenew.jpeg" alt="Pranav Fatkar">
+        </div>
+
+        <div class="floating-tag ftag1">🤖 AI/ML</div>
+        <div class="floating-tag ftag2">📊 Power BI</div>
+        <div class="floating-tag ftag3">🐍 Python</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       STATS BAR
+  ═══════════════════════════════ -->
+  <div class="stats-bar reveal">
+    <div class="stat-item">
+      <span class="stat-num" data-count="4">0</span>
+      <span class="stat-label">Projects Completed</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-count="3">0</span>
+      <span class="stat-label">Years of Learning</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-count="8">0</span>
+      <span class="stat-label">Tools Mastered</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-count="100">0</span>
+      <span class="stat-label">% Dedicated</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════
+       ABOUT
+  ═══════════════════════════════ -->
+  <section id="about">
+    <div class="section-header reveal">
+      <span class="section-tag">01 / About Me</span>
+      <h2 class="section-title">The Human Behind <span class="highlight">The Data</span></h2>
+    </div>
+    <div class="about-grid">
+
+      <div class="about-text reveal">
+        <h3>Hey, I'm Pranav! 👋</h3>
+        <p>I'm a passionate AI/ML Engineer & Data Analyst pursuing BE in Artificial Intelligence & Data Science from Pune, Maharashtra. I love building intelligent systems that transform complex data into real-world impact.</p>
+        <p>With strong expertise in Python, Machine Learning, Deep Learning, and Data Visualization, I bridge the gap between raw data and smart, data-driven solutions.</p>
+        <p>Currently building <strong style="color:var(--accent1);">Mahaguru.AI</strong> — an AI-powered educational platform redefining how students learn using Generative AI and LLMs.</p>
+
+        <div class="about-facts">
+          <div class="fact-card">
+            <div class="fact-icon">🎓</div>
+            <div class="fact-label">Education</div>
+            <div class="fact-value">BE AI & Data Science</div>
+          </div>
+          <div class="fact-card">
+            <div class="fact-icon">📍</div>
+            <div class="fact-label">Location</div>
+            <div class="fact-value">Pune, Maharashtra</div>
+          </div>
+          <div class="fact-card">
+            <div class="fact-icon">💼</div>
+            <div class="fact-label">Role</div>
+            <div class="fact-value">AIML Eng & Data Analyst</div>
+          </div>
+          <div class="fact-card">
+            <div class="fact-icon">🚀</div>
+            <div class="fact-label">Status</div>
+            <div class="fact-value" style="color:var(--accent1);">Open to Work</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-visual reveal">
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="dot dot-r"></div>
+            <div class="dot dot-y"></div>
+            <div class="dot dot-g"></div>
+            <span style="color:var(--text-dim);font-size:0.75rem;margin-left:1rem;">pranav@aiml:~$</span>
+          </div>
+          <div class="terminal-line"><span class="t-prompt">$ </span><span class="t-cmd">whoami</span></div>
+          <div class="terminal-line"><span class="t-out t-highlight">Pranav Fatkar</span></div>
+          <div class="terminal-line" style="margin-top:0.8rem"><span class="t-prompt">$ </span><span class="t-cmd">cat profile.json</span></div>
+          <div class="terminal-line"><span class="t-out">{</span></div>
+          <div class="terminal-line"><span class="t-out">&nbsp;&nbsp;<span class="t-highlight">"role"</span>: <span class="t-val">"AIML Engineer"</span>,</span></div>
+          <div class="terminal-line"><span class="t-out">&nbsp;&nbsp;<span class="t-highlight">"python"</span>: <span class="t-val">90</span>,</span></div>
+          <div class="terminal-line"><span class="t-out">&nbsp;&nbsp;<span class="t-highlight">"deep_learning"</span>: <span class="t-val">78</span>,</span></div>
+          <div class="terminal-line"><span class="t-out">&nbsp;&nbsp;<span class="t-highlight">"gen_ai"</span>: <span class="t-val">75</span>,</span></div>
+          <div class="terminal-line"><span class="t-out">&nbsp;&nbsp;<span class="t-highlight">"powerbi"</span>: <span class="t-val">85</span>,</span></div>
+          <div class="terminal-line"><span class="t-out">&nbsp;&nbsp;<span class="t-highlight">"sql"</span>: <span class="t-val">85</span></span></div>
+          <div class="terminal-line"><span class="t-out">}</span></div>
+          <div class="terminal-line" style="margin-top:0.8rem"><span class="t-prompt">$ </span><span class="cursor-blink"></span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       SKILLS
+  ═══════════════════════════════ -->
+  <section id="skills">
+    <div class="skills-container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 / Skills</span>
+        <h2 class="section-title">My <span class="highlight">Tech Stack</span></h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">🐍</div>
+          <div class="skill-cat-title">Programming</div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span class="skill-bar-name">Python</span><span class="skill-bar-pct">90%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="0.90"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span class="skill-bar-name">SQL</span><span class="skill-bar-pct">85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="0.85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span class="skill-bar-name">Data Wrangling</span><span class="skill-bar-pct">88%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="0.88"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">📊</div>
+          <div class="skill-cat-title">Data Visualization</div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span class="skill-bar-name">Power BI</span><span class="skill-bar-pct">85%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="0.85"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span class="skill-bar-name">Tableau</span><span class="skill-bar-pct">80%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="0.80"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span class="skill-bar-name">Matplotlib / Seaborn</span><span class="skill-bar-pct">88%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="0.88"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">🤖</div>
+          <div class="skill-cat-title">AI / Machine Learning</div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span class="skill-bar-name">Machine Learning</span><span class="skill-bar-pct">82%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="0.82"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span class="skill-bar-name">Deep Learning</span><span class="skill-bar-pct">78%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="0.78"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header"><span class="skill-bar-name">Generative AI</span><span class="skill-bar-pct">75%</span></div>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="0.75"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tools-section reveal">
+        <p class="tools-title">// Tools & Technologies</p>
+        <div class="tools-grid">
+          <div class="tool-chip">🐍 Python</div>
+          <div class="tool-chip">🗄️ MySQL</div>
+          <div class="tool-chip">📊 Power BI</div>
+          <div class="tool-chip">📈 Tableau</div>
+          <div class="tool-chip">📓 Jupyter</div>
+          <div class="tool-chip">🐼 Pandas</div>
+          <div class="tool-chip">🔢 NumPy</div>
+          <div class="tool-chip">📉 Matplotlib</div>
+          <div class="tool-chip">🤖 Scikit-learn</div>
+          <div class="tool-chip">📁 Excel</div>
+          <div class="tool-chip">☁️ Google Colab</div>
+          <div class="tool-chip">🐙 Git / GitHub</div>
+          <div class="tool-chip">📊 Seaborn</div>
+          <div class="tool-chip">🧠 Deep Learning</div>
+          <div class="tool-chip">✨ Generative AI</div>
+          <div class="tool-chip">🔗 TensorFlow / Keras</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       PROJECTS
+  ═══════════════════════════════ -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <span class="section-tag">03 / Projects</span>
+      <h2 class="section-title">Featured <span class="highlight">Work</span></h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card project-featured reveal">
+        <span class="project-badge">🔥 CURRENT</span>
+        <div class="project-banner pb5">🎓</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Generative AI</span>
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Deep Learning</span>
+            <span class="project-tag">LLM</span>
+          </div>
+          <h3 class="project-name">Mahaguru.AI — AI Education Platform</h3>
+          <p class="project-desc">Currently building an AI-powered educational platform that personalises learning using LLMs and Generative AI. Making quality education adaptive and accessible for every student.</p>
+          <div class="project-links">
+            <a href="https://github.com/pranavfatkar77-dotcom" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/pranav-fatkar-8318412b2" target="_blank" class="project-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-banner pb1">🛒</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Pandas</span>
+            <span class="project-tag">Power BI</span>
+          </div>
+          <h3 class="project-name">Sales Dashboard Analytics</h3>
+          <p class="project-desc">End-to-end sales analysis with interactive Power BI dashboard. Identified key revenue drivers and reduced reporting time by 40%.</p>
+          <div class="project-links">
+            <a href="https://github.com/pranavfatkar77-dotcom" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-banner pb2">🧬</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Scikit-learn</span>
+            <span class="project-tag">Deep Learning</span>
+          </div>
+          <h3 class="project-name">Healthcare Prediction Model</h3>
+          <p class="project-desc">ML & Deep Learning model for patient readmission prediction. Achieved 87% accuracy helping hospitals optimise resource allocation.</p>
+          <div class="project-links">
+            <a href="https://github.com/pranavfatkar77-dotcom" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-banner pb3">📈</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">SQL</span>
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Tableau</span>
+          </div>
+          <h3 class="project-name">E-Commerce Customer Insights</h3>
+          <p class="project-desc">Customer segmentation using RFM analysis with Tableau dashboards that improved targeted marketing campaign performance by 25%.</p>
+          <div class="project-links">
+            <a href="https://github.com/pranavfatkar77-dotcom" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-banner pb4">💬</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">Generative AI</span>
+            <span class="project-tag">NLP</span>
+            <span class="project-tag">Python</span>
+          </div>
+          <h3 class="project-name">AI Chatbot with NLP</h3>
+          <p class="project-desc">Context-aware chatbot built using NLP and Generative AI. Integrated with custom data pipelines for intelligent domain-specific Q&A responses.</p>
+          <div class="project-links">
+            <a href="https://github.com/pranavfatkar77-dotcom" target="_blank" class="project-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       EXPERIENCE
+  ═══════════════════════════════ -->
+  <section id="experience">
+    <div class="section-header reveal">
+      <span class="section-tag">04 / Experience</span>
+      <h2 class="section-title">My <span class="highlight">Journey</span></h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot">🤖</div>
+        <div class="timeline-content">
+          <div class="timeline-date">2024 — Present</div>
+          <div class="timeline-role">AI/ML Engineer & Data Analyst</div>
+          <div class="timeline-company">Mahaguru.AI Project — Pune, Maharashtra</div>
+          <div class="timeline-desc">Currently building Mahaguru.AI, an AI-powered personalised education platform using Generative AI and LLMs. Handling model development, data pipelines, and AI-driven learning module design.</div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot">📊</div>
+        <div class="timeline-content">
+          <div class="timeline-date">2023 — 2024</div>
+          <div class="timeline-role">Data Analytics & ML Project Developer</div>
+          <div class="timeline-company">Academic & Self-Driven — Pune</div>
+          <div class="timeline-desc">Completed end-to-end data analytics and ML projects including sales dashboards, healthcare prediction models, and customer segmentation systems. Built strong command over Python, SQL, Power BI, Tableau, and Scikit-learn.</div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot">🎓</div>
+        <div class="timeline-content">
+          <div class="timeline-date">2022 — Present</div>
+          <div class="timeline-role">BE — Artificial Intelligence & Data Science</div>
+          <div class="timeline-company">Engineering College — Pune, Maharashtra</div>
+          <div class="timeline-desc">Pursuing BE in AI & Data Science with core subjects: Machine Learning, Deep Learning, NLP, Computer Vision, Data Analytics, and Python. Actively applying learning through real-world projects.</div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot">🏆</div>
+        <div class="timeline-content">
+          <div class="timeline-date">2022 — 2023</div>
+          <div class="timeline-role">Python & Data Science Certifications</div>
+          <div class="timeline-company">Kaggle · Online Learning Platforms</div>
+          <div class="timeline-desc">Earned certifications in Python, Pandas, Data Visualisation, SQL, and Machine Learning on Kaggle and other platforms. Published notebooks and datasets demonstrating hands-on analytical skills.</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       CONTACT
+  ═══════════════════════════════ -->
+  <section id="contact">
+    <div class="contact-inner">
+      <div class="section-header reveal">
+        <span class="section-tag">05 / Contact</span>
+        <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <h3>Got a project? Let's talk!</h3>
+          <p>Whether you need AI solutions, data analysis, a dashboard, or want to collaborate on something exciting — I'm always open to new opportunities.</p>
+          <div class="social-links">
+
+            <a href="https://www.linkedin.com/in/pranav-fatkar-8318412b2" target="_blank" class="social-link">
+              <div class="social-icon si-linkedin"><i class="fab fa-linkedin-in"></i></div>
+              <div class="social-text">
+                <div class="social-name">LinkedIn</div>
+                <div class="social-handle">pranav-fatkar-8318412b2</div>
+              </div>
+              <i class="fas fa-arrow-right" style="color:var(--text-dim)"></i>
+            </a>
+
+            <a href="https://github.com/pranavfatkar77-dotcom" target="_blank" class="social-link">
+              <div class="social-icon si-github"><i class="fab fa-github"></i></div>
+              <div class="social-text">
+                <div class="social-name">GitHub</div>
+                <div class="social-handle">pranavfatkar77-dotcom</div>
+              </div>
+              <i class="fas fa-arrow-right" style="color:var(--text-dim)"></i>
+            </a>
+
+            <a href="https://www.instagram.com/pranav_fatkar26?igsh=MXVmd2t5NDZobzh2aQ==" target="_blank" class="social-link">
+              <div class="social-icon si-instagram"><i class="fab fa-instagram"></i></div>
+              <div class="social-text">
+                <div class="social-name">Instagram</div>
+                <div class="social-handle">@pranav_fatkar26</div>
+              </div>
+              <i class="fas fa-arrow-right" style="color:var(--text-dim)"></i>
+            </a>
+
+            <a href="https://www.kaggle.com/pranavfatkar" target="_blank" class="social-link">
+              <div class="social-icon si-kaggle"><i class="fab fa-kaggle"></i></div>
+              <div class="social-text">
+                <div class="social-name">Kaggle</div>
+                <div class="social-handle">pranavfatkar</div>
+              </div>
+              <i class="fas fa-arrow-right" style="color:var(--text-dim)"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="contact-form reveal">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="John Doe" id="cname">
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="john@example.com" id="cemail">
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Tell me about your project or idea..." id="cmsg"></textarea>
+          </div>
+          <button class="btn-primary" onclick="sendMessage()" style="width:100%;">Send Message 🚀</button>
+          <div id="form-success" style="display:none;text-align:center;padding:1rem;color:var(--accent1);font-family:'Space Mono',monospace;font-size:0.85rem;border:1px solid var(--accent1);border-radius:8px;margin-top:0.5rem;">
+            ✅ Message sent! I'll get back to you soon.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       FOOTER
+  ═══════════════════════════════ -->
+  <footer>
+    <p>Designed & Built by <span>Pranav Fatkar</span> · AI ML Engineer & Data Analyst · <span>© 2025</span></p>
+    <p style="margin-top:0.5rem;font-size:0.75rem;">Made with ❤️ + ☕ + 🤖 in Pune, Maharashtra</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
