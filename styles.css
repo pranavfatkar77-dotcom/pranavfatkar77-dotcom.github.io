@@ -594,8 +594,10 @@ footer span { color: var(--accent1); }
 
 /* ── RESPONSIVE ─────────────────────────────── */
 @media (max-width: 900px) {
-  .hero-layout   { flex-direction: column; }
-  .hero-visual   { display: none; }
+  .hero-layout   { flex-direction: column;
+                 align-items:center;
+                 text-align:center;}
+  .hero-visual   { display: block; } 
   .about-grid,
   .contact-grid  { grid-template-columns: 1fr; }
   .nav-links     { display: none; }
